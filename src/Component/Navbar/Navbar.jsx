@@ -8,7 +8,8 @@ const Navbar = () => {
       to="/"
       className={({ isActive }) =>
         `flex items-center gap-2 px-3 py-2 transition-colors duration-300 rounded-4xl
-        ${isActive ? 'bg-orange-300' : 'bg-gray-100'} hover:bg-orange-500 hover:text-white`
+        ${isActive ? 'bg-gradient-to-r from-[#B79891] to-[#94716B] text-white' : 'bg-gray-100 text-black'} 
+        hover:bg-gradient-to-r hover:from-[#B79891] hover:to-[#94716B] hover:text-white`
       }
     >
       <FaHome /> <li>Home</li>
@@ -18,7 +19,8 @@ const Navbar = () => {
       to="/skills"
       className={({ isActive }) =>
         `flex items-center gap-2 px-3 py-2 transition-colors duration-300 rounded-4xl
-        ${isActive ? 'bg-orange-300' : 'bg-gray-100'} hover:bg-orange-500 hover:text-white`
+        ${isActive ? 'bg-gradient-to-r from-[#B79891] to-[#94716B] text-white' : 'bg-gray-100 text-black'} 
+        hover:bg-gradient-to-r hover:from-[#B79891] hover:to-[#94716B] hover:text-white`
       }
     >
       <FaLaptopCode /> <li>Skills</li>
@@ -28,7 +30,8 @@ const Navbar = () => {
       to="/projects"
       className={({ isActive }) =>
         `flex items-center gap-2 px-3 py-2 transition-colors duration-300 rounded-4xl
-        ${isActive ? 'bg-orange-300' : 'bg-gray-100'} hover:bg-orange-500 hover:text-white`
+        ${isActive ? 'bg-gradient-to-r from-[#B79891] to-[#94716B] text-white' : 'bg-gray-100 text-black'} 
+        hover:bg-gradient-to-r hover:from-[#B79891] hover:to-[#94716B] hover:text-white`
       }
     >
       <FaProjectDiagram /> <li>Projects</li>
@@ -36,9 +39,10 @@ const Navbar = () => {
 
     <NavLink
       to="/about"
-     className={({ isActive }) =>
+      className={({ isActive }) =>
         `flex items-center gap-2 px-3 py-2 transition-colors duration-300 rounded-4xl
-        ${isActive ? 'bg-orange-300' : 'bg-gray-100'} hover:bg-orange-500 hover:text-white`
+        ${isActive ? 'bg-gradient-to-r from-[#B79891] to-[#94716B] text-white' : 'bg-gray-100 text-black'} 
+        hover:bg-gradient-to-r hover:from-[#B79891] hover:to-[#94716B] hover:text-white`
       }
     >
       <FaUserAlt /> <li>About</li>
@@ -46,16 +50,18 @@ const Navbar = () => {
 
     <NavLink
       to="/contact"
-     className={({ isActive }) =>
+      className={({ isActive }) =>
         `flex items-center gap-2 px-3 py-2 transition-colors duration-300 rounded-4xl
-        ${isActive ? 'bg-orange-300' : 'bg-gray-100'} hover:bg-orange-500 hover:text-white`
+        ${isActive ? 'bg-gradient-to-r from-[#B79891] to-[#94716B] text-white' : 'bg-gray-100 text-black'} 
+        hover:bg-gradient-to-r hover:from-[#B79891] hover:to-[#94716B] hover:text-white`
       }
     >
       <FaPhoneAlt /> <li>Contact</li>
     </NavLink>
   </>
+
   return (
-   <div className="navbar bg-white shadow-sm sticky top-0 z-50 px-12">
+    <div className="navbar fixed w-full mx-auto bg-blue-950/50 backdrop-blur-md top-0 left-0 z-50 shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +83,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#contact" className='btn hover:bg-orange-500 hover:text-white bg-orange-400 text-white'>Hire Me</a>
+        <a href="#contact" className='btn bg-gradient-to-r from-[#B79891] to-[#94716B] text-white hover:opacity-90'>Hire Me</a>
       </div>
     </div>
   );
