@@ -44,11 +44,19 @@ const Contact = () => {
             id='contact'
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            className='my-20'
+            className='my-12 relative'
         >
+            <div className=''>
+                <div className='h-50 w-50 absolute -z-0 bg-sky-900 top-40 left-50  blur-3xl '>
+                </div>
+                <div className='h-50 w-50 absolute -z-0 bg-teal-950 top-60 left-30 blur-3xl'>
+                </div>
+                <div className='h-20 w-20 absolute -z-0 bg-gray-500 top-40 left-60  blur-3xl'>
+                </div>
+            </div>
             <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800">
                 {/* Left side: Contact info and image */}
-                <div className="flex flex-col justify-between space-y-8">
+                <div className="flex flex-col justify-between space-y-8 z-40">
                     <div>
                         <h2 className="text-4xl font-bold text-gray-200">
                             Let's <span className='text-[#B79891]'>Talk!</span>
@@ -56,7 +64,7 @@ const Contact = () => {
                         <p className="text-gray-200 mt-2">
                             You can ask me anything or reach me <br />directly using the contact info below.
                         </p>
-                        <hr className='text-gray-200 mt-6'/>
+                        <hr className='text-gray-200 mt-6' />
 
                         {/* Contact Information */}
                         <div className="mt-6 space-y-4 text-gray-700 dark:text-gray-600">
@@ -94,7 +102,7 @@ const Contact = () => {
                     ref={form}
                     onSubmit={sendEmail}
                     noValidate=""
-                    className="space-y-5 text-gray-200 lg:mt-20"
+                    className="space-y-5 text-gray-200 lg:mt-20 z-40"
                 >
                     <div>
                         <label htmlFor="name" className="text-sm">Full name</label>

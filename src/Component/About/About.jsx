@@ -5,16 +5,18 @@ export default function AboutMe() {
   return (
     <section
       id='about'
-      className="py-16 w-11/12 mx-auto">
+      className="py-16 w-11/12 mx-auto z-40">
       <div className="mx-auto space-y-10 lg:flex-row items-center">
 
         {/* Left Side - Photo */}
         <div
-          data-aos="flip-left"
+          data-aos="fade-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
           className="">
-          <div className="rounded-2xl p-1 grid grid-cols-1 lg:grid-cols-2 bg-gradient-to-r from-[#B79891] via-white to-[#94716B] shadow-2xl">
+          <div 
+          
+          className="rounded-2xl p-1 grid grid-cols-1 lg:grid-cols-2 bg-gradient-to-r from-[#B79891] via-white to-[#94716B] shadow-2xl">
             <img
               src="https://i.postimg.cc/5jcTjW2m/home-Office.webp"
               alt="Afroza Akter"

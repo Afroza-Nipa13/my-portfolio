@@ -50,7 +50,7 @@ export default function Banner() {
         </div>
 
         {/* Right Side - Image */}
-        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0">
+        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 z-40">
           <motion.img
             src="https://i.postimg.cc/m2v7cXvN/hijabi.png"
             alt="Afroza Akter"

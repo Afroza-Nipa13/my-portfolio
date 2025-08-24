@@ -38,7 +38,7 @@ const Gallery = () => {
     ];
     return (
         <div>
-            <section className="py-6">
+            <section className="py-6 z-40">
                 <h2 className="text-4xl font-bold mb-4 text-gray-200 text-center">Others <span className='text-[#B79891]'>Projects</span></h2>
                 <div className="max-w-11/12 mx-auto px-4 py-8">
                     <Swiper

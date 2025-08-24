@@ -7,9 +7,17 @@ const Skills = () => {
 
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            className='my-40'>
+            className='my-40 '>
             <section className="">
                 <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-10">
+                    <div className=''>
+                <div className='h-50 w-50 absolute -z-0 bg-sky-900 top-40 left-50  blur-3xl '>
+                </div>
+                <div className='h-50 w-50 absolute -z-0 bg-teal-950 top-60 left-30 blur-3xl'>
+                </div>
+                <div className='h-20 w-20 absolute -z-0 bg-gray-500 top-40 left-60  blur-3xl'>
+                </div>
+            </div>
                     <h2 className="text-4xl text-gray-200 font-bold">My <span className='text-[#B79891]'>Skills </span></h2>
                     <div className="flex evenly w-full justify-center lg:justify-between mt-20">
                         {/* Marquee Section */}

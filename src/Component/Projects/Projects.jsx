@@ -49,7 +49,15 @@ const ProjectsSection = () => {
     const [selectedProject, setSelectedProject] = useState(null);
 
     return (
-        <div id="projects">
+        <div id="projects relative">
+            <div className=''>
+                <div className='h-50 w-50 absolute -z-0 bg-sky-900 top-40 left-50  blur-3xl '>
+                </div>
+                <div className='h-50 w-50 absolute -z-0 bg-teal-950 top-60 left-30 blur-3xl'>
+                </div>
+                <div className='h-20 w-20 absolute -z-0 bg-gray-500 top-40 left-60  blur-3xl'>
+                </div>
+            </div>
             <section className="py-6 sm:py-12 dark:bg-gray-100 dark:text-gray-800">
                 <div className="container p-6 mx-auto space-y-8">
                     {/* Section Title */}
