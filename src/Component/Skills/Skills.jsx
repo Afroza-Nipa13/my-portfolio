@@ -9,7 +9,7 @@ const Skills = () => {
             data-aos-anchor-placement="top-bottom"
             className='my-40 '>
             <section className="">
-                <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-10">
+                <div className="container relative p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-10">
                     <div className=''>
                 <div className='h-50 w-50 absolute -z-0 bg-sky-900 top-40 left-50  blur-3xl '>
                 </div>
