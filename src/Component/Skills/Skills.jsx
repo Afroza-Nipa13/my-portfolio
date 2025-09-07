@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const Skills = () => {
     return (
         <div
-
+            id='skills'
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             className='my-40 '>

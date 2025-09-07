@@ -75,10 +75,10 @@ const Footer = () => {
 				<ul className="flex flex-wrap justify-center gap-4 sm:gap-8 text-sm">
 					<li>
 						<a
-							href="#home"
+							href="#about"
 							className="text-gray-200 transition-colors hover:bg-gradient-to-r hover:from-[#B79891] hover:to-[#94716B] hover:bg-clip-text hover:text-transparent"
 						>
-							Home
+							About
 						</a>
 					</li>
 					<li>
