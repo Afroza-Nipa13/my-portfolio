@@ -77,13 +77,13 @@ const Contact = () => {
                             <div>
                                 <strong className='text-gray-200'>Phone:</strong>{' '}
                                 <a href="tel:+880123456789" className="text-[#B79891] hover:underline">
-                                    +880 1234 56789
+                                    +880 1764 198985
                                 </a>
                             </div>
                             <div>
                                 <strong className='text-gray-200'>WhatsApp:</strong>{' '}
                                 <a href="https://wa.me/880123456789" target="_blank" rel="noopener noreferrer" className="text-[#B79891] hover:underline">
-                                    +880 1234 56789
+                                    +880 1764 198985
                                 </a>
                             </div>
                         </div>

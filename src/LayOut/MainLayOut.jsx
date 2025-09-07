@@ -9,16 +9,9 @@ const MainLayOut = () => {
         <div>
   <Navbar />
   
-  <div className="relative">
+  <div className="">
     <Outlet />
-    <div className=''>
-      <div className='h-100 w-100 absolute -z-0 bg-sky-900 top-10 right-40  blur-3xl '>
-</div>
-    <div className='h-50 w-50 absolute -z-0 bg-pink-950 top-20 right-20 blur-3xl'>
-</div>
-    <div className='h-80 w-80 absolute -z-0 bg-gray-500 top-10 right-40  blur-3xl'>
-</div>
-    </div>
+    
   </div>
   <Footer />
 </div>

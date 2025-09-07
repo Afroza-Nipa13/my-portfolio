@@ -9,7 +9,7 @@ const Skills = () => {
             data-aos-anchor-placement="top-bottom"
             className='my-40 '>
             <section className="">
-                <div className="container relative p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-10">
+                <div className="container relative  p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-10">
                     <div className=''>
                 <div className='h-50 w-50 absolute -z-0 bg-sky-900 top-40 left-50  blur-3xl '>
                 </div>
@@ -19,7 +19,7 @@ const Skills = () => {
                 </div>
             </div>
                     <h2 className="text-4xl text-gray-200 font-bold">My <span className='text-[#B79891]'>Skills </span></h2>
-                    <div className="flex evenly w-full justify-center lg:justify-between mt-20">
+                    <div className="flex evenly z-40 w-full justify-center lg:justify-between mt-20">
                         {/* Marquee Section */}
                         <Marquee pauseOnHover={true} gradient={false} speed={50}>
                             <img className='w-30 h-30 mx-10 rounded-full' src='https://i.postimg.cc/SRg2x52J/html.png' alt="HTML" />

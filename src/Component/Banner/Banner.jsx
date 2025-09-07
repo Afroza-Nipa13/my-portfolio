@@ -12,7 +12,15 @@ export default function Banner() {
   };
 
   return (
-    <section className="dark:bg-gray-100 dark:text-gray-800">
+    <section className="relative dark:bg-gray-100 dark:text-gray-800">
+      <div className=''>
+      <div className='h-100 w-100 absolute -z-0 bg-sky-900 top-10 right-40  blur-3xl '>
+</div>
+    <div className='h-50 w-50 absolute -z-0 bg-pink-950 top-20 right-20 blur-3xl'>
+</div>
+    <div className='h-80 w-80 absolute -z-0 bg-gray-500 top-10 right-40  blur-3xl'>
+</div>
+    </div>
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         {/* Left Side - Text */}
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
