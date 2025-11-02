@@ -23,7 +23,7 @@ export default function Banner() {
     </div>
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         {/* Left Side - Text */}
-        <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+        <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left z-40">
           <h1 className="text-5xl text-gray-200 font-bold leading-none sm:text-6xl">
             Hi, I'm <span className="bg-gradient-to-r from-[#B79891] via-white to-[#94716B] bg-clip-text text-transparent uppercase">Afroza Akter</span>
           </h1>
