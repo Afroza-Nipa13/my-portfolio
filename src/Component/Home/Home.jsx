@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Gallery from '../Gallery/Gallery';
 import Skills from '../Skills/Skills';
+import TeamProject from '../teamProject/TeamProject';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner/>
             <AboutMe/>
             <Skills/>
+            <TeamProject/>
             <Projects/>
             <Contact/>
             <Gallery/>

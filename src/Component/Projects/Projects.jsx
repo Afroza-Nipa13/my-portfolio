@@ -1,15 +1,18 @@
 import React, { useState } from "react";
+import ass12 from "/ass12.png"
+import ass11 from "/ass11.png"
+import ass10 from "/ass10.png"
 
 const projects = [
     {
         id: 1,
-        name: "Zahaba Tours – A Tour Booking Platform",
-        image: "https://i.postimg.cc/SsNgsnDd/Screenshot-346.png",
+        name: "Zahaba Tours, A Tour Booking Platform",
+        image: ass11,
         techStack: "MERN Stack, Firebase Auth, JWT",
         brief:
             "Browse, book, and manage travel packages with separate dashboards for users and tour guides.",
-        liveLink: "https://zahaba-tours.netlify.app",
-        githubClient: "https://github.com/username/zahaba-tours-client",
+        liveLink: "https://tour-booking-client.web.app",
+        githubClient: "https://github.com/Afroza-Nipa13/tour_booking",
         challenges:
             "Managing user roles and authentication across multiple dashboards was challenging. Handling real-time data syncing was also complex.",
         improvements:
@@ -18,12 +21,12 @@ const projects = [
     {
         id: 2,
         name: "FIRST Life Insurance Web App",
-        image: "https://i.postimg.cc/Sx6XXJzB/Screenshot-345.png",
+        image: ass12,
         techStack: "MERN Stack, Stripe Payments, JWT Authentication",
         brief:
             "Role-based dashboards for Admin, Agent, and Customer with Stripe payments and secure JWT authentication.",
-        liveLink: "https://last-assignment-project.web.app/",
-        githubClient: "https://github.com/username/first-life-insurance-client",
+        liveLink: "https://last-assignment-project.web.app",
+        githubClient: "https://github.com/Afroza-Nipa13/first-insurance",
         challenges:
             "Integrating Stripe securely and managing complex role-based access were difficult.",
         improvements:
@@ -31,13 +34,13 @@ const projects = [
     },
     {
         id: 3,
-        name: "Plant Manager",
-        image: "https://i.postimg.cc/xyz/plant-manager.png", // replace with actual image
+        name: "My Plant Diary",
+        image: ass10, 
         techStack: "React, Tailwind CSS, Firebase",
         brief:
             "An app to manage your plants, track watering schedules, and get care reminders.",
-        liveLink: "https://plant-manager.example.com",
-        githubClient: "https://github.com/username/plant-manager-client",
+        liveLink: "https://my-plant-diary.netlify.app",
+        githubClient: "https://github.com/Afroza-Nipa13/plant_diary",
         challenges:
             "Implementing efficient notifications and syncing data between devices was challenging.",
         improvements:
@@ -99,16 +102,16 @@ const ProjectsSection = () => {
                     {/* Modal for project details */}
                     {selectedProject && (
                         <div
-                            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60"
+                            className="fixed inset-0 z-50 flex items-center justify-center"
                             onClick={() => setSelectedProject(null)}
                         >
                             <div
-                                className="bg-white dark:bg-gray-800 rounded-lg max-w-3xl w-full p-6 relative"
+                                className="bg-gray-800 rounded-lg max-w-3xl w-full p-6 relative"
                                 onClick={(e) => e.stopPropagation()}
                             >
                                 <button
                                     onClick={() => setSelectedProject(null)}
-                                    className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
+                                    className="absolute top-4 right-4 text-gray-00 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
                                     aria-label="Close modal"
                                 >
                                     ✕

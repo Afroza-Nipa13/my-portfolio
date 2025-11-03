@@ -12,7 +12,7 @@ export default function Banner() {
   };
 
   return (
-    <section className="relative dark:bg-gray-100 dark:text-gray-800">
+    <section className="relative dark:bg-gray-100 dark:text-gray-800 pt-10">
       <div className=''>
       <div className='h-100 w-100 absolute -z-0 bg-sky-900 top-10 right-40  blur-3xl '>
 </div>
