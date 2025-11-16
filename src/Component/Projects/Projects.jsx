@@ -34,7 +34,7 @@ const projects = [
     },
     {
         id: 3,
-        name: "My Plant Diary",
+        name: "Plant Diary",
         image: ass10, 
         techStack: "React, Tailwind CSS, Firebase",
         brief:

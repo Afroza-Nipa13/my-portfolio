@@ -10,7 +10,7 @@ import TeamProject from '../teamProject/TeamProject';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='bg-black'>
             <Banner/>
             <AboutMe/>
             <Skills/>

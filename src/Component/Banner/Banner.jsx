@@ -60,7 +60,7 @@ export default function Banner() {
         {/* Right Side - Image */}
         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 z-40">
           <motion.img
-            src="https://i.postimg.cc/m2v7cXvN/hijabi.png"
+            src="https://i.ibb.co.com/bjZjqqj9/newNipa.png"
             alt="Afroza Akter"
             animate={{ y: [50, 100, 50] }}
             transition={{ duration: 10, repeat: Infinity }}
