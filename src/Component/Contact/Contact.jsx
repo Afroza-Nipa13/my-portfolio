@@ -42,8 +42,7 @@ const Contact = () => {
     return (
         <div
             id='contact'
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
+            
             className='my-12 relative'
         >
             <div className=''>
@@ -58,13 +57,13 @@ const Contact = () => {
                 {/* Left side: Contact info and image */}
                 <div className="flex flex-col justify-between space-y-8 z-40">
                     <div>
-                        <h2 className="text-4xl font-bold text-gray-200">
+                        <h2 data-aos="fade-right" className="text-6xl font-bold text-gray-200">
                             Let's <span className='text-[#B79891]'>Talk!</span>
                         </h2>
                         <p className="text-gray-200 mt-2">
                             You can ask me anything or reach me <br />directly using the contact info below.
                         </p>
-                        <hr className='text-gray-200 mt-6' />
+                        <hr data-aos="fade-right" className='text-gray-200 mt-6 w-sm' />
 
                         {/* Contact Information */}
                         <div className="mt-6 space-y-4 text-gray-700 dark:text-gray-600">
@@ -101,8 +100,9 @@ const Contact = () => {
                 <form
                     ref={form}
                     onSubmit={sendEmail}
-                    noValidate=""
-                    className="space-y-5 text-gray-200 lg:mt-20 z-40"
+                    data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+                    className="space-y-5 text-gray-200 glass p-8 rounded-2xl  z-40"
                 >
                     <div>
                         <label htmlFor="name" className="text-sm">Full name</label>
@@ -111,7 +111,7 @@ const Contact = () => {
                             type="text"
                             placeholder="Your name"
                             required
-                            className="w-full p-3 rounded text-gray-800 bg-gray-100 dark:bg-gray-100"
+                            className="w-full p-3 rounded text-gray-300 border"
                         />
                     </div>
                     <div>
@@ -121,7 +121,7 @@ const Contact = () => {
                             type="email"
                             placeholder="Your email"
                             required
-                            className="w-full p-3 rounded text-gray-800 bg-gray-100 dark:bg-gray-100"
+                            className="w-full p-3 rounded  text-gray-300 border"
                         />
                     </div>
                     <div>
@@ -131,7 +131,7 @@ const Contact = () => {
                             type="text"
                             placeholder="Subject"
                             required
-                            className="w-full p-3 text-gray-800 rounded bg-gray-100 dark:bg-gray-100"
+                            className="w-full p-3 rounded text-gray-300 border"
                         />
                     </div>
                     <div>
@@ -141,12 +141,12 @@ const Contact = () => {
                             rows="3"
                             placeholder="Write your message"
                             required
-                            className="w-full text-gray-800 p-3 rounded bg-gray-100 dark:bg-gray-100"
+                            className="w-full p-3 rounded text-gray-300 border"
                         ></textarea>
                     </div>
                     <button
                         type="submit"
-                        className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-[#B79891] hover:bg-[#94716B] text-gray-100 cursor-pointer dark:bg-violet-600 dark:text-gray-50"
+                        className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-[#99726a] hover:bg-[#e97ac085] text-gray-100 cursor-pointer dark:bg-violet-600 dark:text-gray-50"
                     >
                         Send Message
                     </button>
