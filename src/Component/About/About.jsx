@@ -53,7 +53,7 @@ export default function AboutMe() {
           </p>
 
           {/* Skills */}
-          <h3 className="text-2xl text-gray-200 font-semibold mb-4">Skills</h3>
+          {/* <h3 className="text-2xl text-gray-200 font-semibold mb-4">Skills</h3>
           <div className="flex flex-wrap gap-3 mb-6">
             <span className="flex items-center gap-2 bg-sky-500 text-white px-3 py-1 rounded-full">
               <FaReact /> React.js
@@ -79,7 +79,7 @@ export default function AboutMe() {
             <span className="flex items-center gap-2 bg-purple-600 text-white px-3 py-1 rounded-full">
               <FaDatabase /> Database Design
             </span>
-          </div>
+          </div> */}
 
           {/* Buttons */}
           <div className="flex gap-4">
