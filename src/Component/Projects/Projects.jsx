@@ -100,76 +100,77 @@ const ProjectsSection = () => {
                     </div>
 
                     {/* Modal for project details */}
-                    {selectedProject && (
-                        <div
-                            className="fixed inset-0 z-50 flex items-center justify-center"
-                            onClick={() => setSelectedProject(null)}
-                        >
-                            <div
-                                className="bg-gray-800 rounded-lg max-w-3xl w-full p-6 relative"
-                                onClick={(e) => e.stopPropagation()}
-                            >
-                                <button
-                                    onClick={() => setSelectedProject(null)}
-                                    className="absolute top-4 right-4 text-gray-00 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
-                                    aria-label="Close modal"
-                                >
-                                    ✕
-                                </button>
+{selectedProject && (
+    <div
+        className="fixed inset-0 z-50 flex items-center justify-center"
+        onClick={() => setSelectedProject(null)}
+    >
+        <div
+            // 👇 KEY CHANGE HERE: Added 'max-h-[90vh]' to limit height and 'overflow-y-auto' for scrolling
+            className="bg-gray-800 rounded-lg max-w-3xl w-full p-6 relative max-h-[90vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+        >
+            <button
+                onClick={() => setSelectedProject(null)}
+                className="absolute top-4 right-5 cursor-pointer text-gray-00 hover:text-pink-300 dark:text-gray-300 dark:hover:text-white"
+                aria-label="Close modal"
+            >
+                ✕
+            </button>
 
-                                <h2 className="text-2xl font-bold mb-4">{selectedProject.name}</h2>
-                                <img
-                                    src={selectedProject.image}
-                                    alt={selectedProject.name}
-                                    className="w-full h-56 object-cover rounded mb-4"
-                                />
-                                <p>
-                                    <strong>Main Technology Stack: </strong>
-                                    {selectedProject.techStack}
-                                </p>
-                                <p className="mt-3">
-                                    <strong>Description: </strong>
-                                    {selectedProject.brief}
-                                </p>
-                                <p className="mt-3">
-                                    <strong>Live Project: </strong>
-                                    <a
-                                        href={selectedProject.liveLink}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-[#B79891] hover:underline"
-                                    >
-                                        {selectedProject.liveLink}
-                                    </a>
-                                </p>
-                                <p className="mt-3">
-                                    <strong>GitHub (Client): </strong>
-                                    <a
-                                        href={selectedProject.githubClient}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-[#B79891] hover:underline"
-                                    >
-                                        {selectedProject.githubClient}
-                                    </a>
-                                </p>
-                                <p className="mt-3">
-                                    <strong>Challenges Faced: </strong>
-                                    {selectedProject.challenges}
-                                </p>
-                                <p className="mt-3 mb-6">
-                                    <strong>Potential Improvements & Future Plans: </strong>
-                                    {selectedProject.improvements}
-                                </p>
-                                <button
-                                    onClick={() => setSelectedProject(null)}
-                                    className="px-4 py-2 bg-[#B79891] hover:bg-[#94716B] text-white rounded"
-                                >
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    )}
+            <h2 className="text-2xl font-bold mb-4">{selectedProject.name}</h2>
+            <img
+                src={selectedProject.image}
+                alt={selectedProject.name}
+                className="w-full h-56 object-cover rounded mb-4"
+            />
+            <p>
+                <strong>Main Technology Stack: </strong>
+                {selectedProject.techStack}
+            </p>
+            <p className="mt-3">
+                <strong>Description: </strong>
+                {selectedProject.brief}
+            </p>
+            <p className="mt-3">
+                <strong>Live Project: </strong>
+                <a
+                    href={selectedProject.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#B79891] hover:underline"
+                >
+                    {selectedProject.liveLink}
+                </a>
+            </p>
+            <p className="mt-3">
+                <strong>GitHub (Client): </strong>
+                <a
+                    href={selectedProject.githubClient}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#B79891] hover:underline"
+                >
+                    {selectedProject.githubClient}
+                </a>
+            </p>
+            <p className="mt-3">
+                <strong>Challenges Faced: </strong>
+                {selectedProject.challenges}
+            </p>
+            <p className="mt-3 mb-6">
+                <strong>Potential Improvements & Future Plans: </strong>
+                {selectedProject.improvements}
+            </p>
+            <button
+                onClick={() => setSelectedProject(null)}
+                className="px-4 py-2 bg-[#B79891] hover:bg-[#94716B] text-white rounded"
+            >
+                Close
+            </button>
+        </div>
+    </div>
+)}
                 </div>
             </section>
         </div>
