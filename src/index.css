@@ -33,8 +33,8 @@ body {
   height: 150%;
   width: 150%;
   background: conic-gradient(
-    rgba(39, 111, 122, 1) 0%,
-    rgba(183, 189, 188, 1) 47%,
+    rgb(62, 70, 94) 0%,
+    rgb(228, 240, 238) 47%,
     transparent 80deg
   );
   animation: border-spin 7s infinite linear;
@@ -43,6 +43,6 @@ body {
 .card-content {
   @apply absolute w-[calc(100%-4px)] h-[calc(100%-4px)]
     top-[2px] left-[2px]
-    bg-gradient-to-b from-gray-950 to-gray-900
+    bg-gradient-to-b from-[#7e5c55] to-[#5a3831]
     rounded-2xl duration-200;
 }

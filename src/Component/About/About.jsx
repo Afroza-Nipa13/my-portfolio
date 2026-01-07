@@ -35,7 +35,7 @@ export default function AboutMe() {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           className="">
-          <h2 className="text-4xl text-gray-200 font-bold">About <span className='text-[#B79891]'>Me </span></h2>
+          <h2 className="text-4xl text-gray-200 font-bold my-6 mx-auto text-center">About <span className='text-[#B79891]'>Me </span></h2>
           <p className="mb-4 text-lg text-gray-200 leading-relaxed">
             Hi, I’m <span className="font-semibold">Afroza Akter.</span>
             I’m a passionate MERN Stack Web Developer specializing in <strong>React.js</strong>, <strong>Tailwind CSS</strong>, and <strong>Node.js</strong>.
@@ -52,34 +52,7 @@ export default function AboutMe() {
             When I’m not coding, I love exploring new tech tools, helping others learn programming, and spending quality time with my family. My dream is to work remotely as a web developer, travel, and keep learning new things every day.
           </p>
 
-          {/* Skills */}
-          {/* <h3 className="text-2xl text-gray-200 font-semibold mb-4">Skills</h3>
-          <div className="flex flex-wrap gap-3 mb-6">
-            <span className="flex items-center gap-2 bg-sky-500 text-white px-3 py-1 rounded-full">
-              <FaReact /> React.js
-            </span>
-            <span className="flex items-center gap-2 bg-yellow-500 text-black px-3 py-1 rounded-full">
-              <FaJs /> JavaScript
-            </span>
-            <span className="flex items-center gap-2 bg-cyan-400 text-black px-3 py-1 rounded-full">
-              <SiTailwindcss /> Tailwind CSS
-            </span>
-            <span className="flex items-center gap-2 bg-green-600 text-white px-3 py-1 rounded-full">
-              <FaNodeJs /> Node.js
-            </span>
-            <span className="flex items-center gap-2 bg-gray-700 text-white px-3 py-1 rounded-full">
-              <SiExpress /> Express.js
-            </span>
-            <span className="flex items-center gap-2 bg-green-800 text-white px-3 py-1 rounded-full">
-              <SiMongodb /> MongoDB
-            </span>
-            <span className="flex items-center gap-2 bg-orange-500 text-white px-3 py-1 rounded-full">
-              <SiFirebase /> Firebase
-            </span>
-            <span className="flex items-center gap-2 bg-purple-600 text-white px-3 py-1 rounded-full">
-              <FaDatabase /> Database Design
-            </span>
-          </div> */}
+         
 
           {/* Buttons */}
           <div className="flex gap-4">

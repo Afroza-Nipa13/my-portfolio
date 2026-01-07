@@ -57,10 +57,10 @@ export default function Banner() {
             </a>
           </div> */}
 
-          <div className="card-wrapper h-[60px] w-[160px]">
+          <div className="card-wrapper h-[60px] w-[160px] mx-auto">
       <button
         onClick={handleDownloadCV}
-        className="card-content text-gray-300 flex justify-center items-center font-bold"
+        className="card-content text-gray-300 flex cursor-pointer justify-center items-center font-bold"
       >
         <FaDownload className="mr-2 text-sm" />
         Resume
