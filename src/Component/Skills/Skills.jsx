@@ -19,7 +19,7 @@ const Skills = () => {
         <div
             id='skills'
 
-            className='mt-20 '>
+            className='mt-8 '>
             <section className="">
                 <div className="container relative  p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-10">
                     <div className=''>

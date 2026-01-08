@@ -45,7 +45,7 @@ const TeamProject = () => {
         className="text-center mb-10"
       >
         <h1 className="text-4xl font-extrabold text-gray-300 mb-2">
-          My Team <span className="text-[#B79891]">Projects</span>
+          My Team <span className="text-[#aa8178]">Projects</span>
         </h1>
         <p className="text-gray-400 text-lg">
           Highlighting my contribution to a collaborative food delivery platform
@@ -116,7 +116,7 @@ const TeamProject = () => {
             href="https://fastfeastt.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-xl hover:bg-green-600 hover:shadow-md transition-all duration-300 font-medium"
+            className="inline-flex items-center gap-2 bg-[#94716B] text-white px-5 py-3 rounded-xl hover:bg-[#c2a6a1] hover:shadow-md transition-all duration-300 font-medium"
           >
             <ExternalLink size={18} />
             Live Demo

@@ -55,8 +55,8 @@ export default function AboutMe() {
          
 
           {/* Buttons */}
-          <div className="flex gap-4">
-            <a href="#projects" className="btn bg-[#B79891] hover:bg-[#94716B] text-white border-none">View My Work</a>
+          <div className="flex gap-4 text-center justify-center my-8">
+            <a href="#projects" className="btn bg-[#916b62] hover:bg-[#b48c84] text-white border-none">View My Work</a>
             <a href="#contact" className="btn btn-outline border-[#B79891] text-[#B79891]">Contact Me</a>
           </div>
         </div>
